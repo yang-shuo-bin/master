@@ -1,22 +1,23 @@
-#Xilinx Zynq UltraScale+ MPSoC AI智能识别 FPGA核心板 XCZU2CG
-##应用场景
+# Xilinx Zynq UltraScale+ MPSoC AI智能识别 FPGA核心板 XCZU2CG
+## 应用场景
 智能识别检测、图像视频处理、安防监控、机器视觉、火灾监测、交通安全、智慧工地、智慧酒店、智慧农业、物联网   
-##支持XILINX VITIS-AI DPU  
-![图片](https://www.alinx.com/upload/image/20220818/ACU2CG.jpg)   
+## 支持XILINX VITIS-AI DPU  
+![图片](G:/AI-2.jpg)   
 车辆识别  
 ![图片](G:/AI-3.jpg)   
 ##产品图片
-![图片](https://www.alinx.com/upload/image/20220818/ACU2CG.jpg)
+![图片](G:/ACU2CG.jpg) 
 ##接口图片
-![图片](https://www.alinx.com/upload/image/20221008/1665212823906926.jpg)
-![图片]((https://www.alinx.com/upload/image/20220818/ACU2CG3EGCN2.jpg)  
-##对应开发板
-###AXU2CG-E
+![图片](G:/1665212823906926.jpg)
+    
+![图片](G:/ACU2CG3EGCN2.jpg)  
+## 对应开发板
+### AXU2CG-E
 ![图片](G:/AXU3EG-750.jpg)    
 产品链接<https://www.alinx.com/detail/223>
 
-##产品参数
-###核心板主要参数
+## 产品参数
+### 核心板主要参数
 <table>
     <tr>
         <td>核心板</td>
@@ -87,7 +88,7 @@
         <td>84个</td>
     </tr>
 </table>                                           
-###功能和接口参数
+### 功能和接口参数
 <table>
     <tr>
         <td>QSPI Flash</td>
@@ -109,7 +110,7 @@
         <td>1差分 200MHz 晶振提供给 PL 逻辑、 DDR4 参考时钟"</td>
     </tr>
 </table>
-###电源参数
+### 电源参数
 <table>
     <tr>
         <td>输入电压</td>
@@ -118,7 +119,7 @@
 </table>
 ###结构尺寸
 <table>
-    <tr>  
+    <tr>
         <td>尺寸大小</td>
         <td>80 x 60 x 7.1mm</td>
         <td>合高</td>
@@ -129,7 +130,7 @@
         <td>16层，沉金工艺，高质量PCB材质</td>
     </tr>
 </table>
-##结构图
+## 结构图
 ![图片](G:/ACU2EG-Zynq-UltraScale-FPGA.jpg)
 
 
