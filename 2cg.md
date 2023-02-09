@@ -2,7 +2,7 @@
 ##应用场景
 智能识别检测、图像视频处理、安防监控、机器视觉、火灾监测、交通安全、智慧工地、智慧酒店、智慧农业、物联网   
 ##支持XILINX VITIS-AI DPU  
-![图片](G:/AI-2.jpg)   
+![图片](https://www.alinx.com/upload/image/20220818/ACU2CG.jpg)   
 车辆识别  
 ![图片](G:/AI-3.jpg)   
 ##产品图片
