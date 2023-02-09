@@ -118,7 +118,7 @@
 </table>
 ###结构尺寸
 <table>
-    <tr>
+    <tr>  
         <td>尺寸大小</td>
         <td>80 x 60 x 7.1mm</td>
         <td>合高</td>
