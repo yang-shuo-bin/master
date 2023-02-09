@@ -1,4 +1,4 @@
-# Xilinx Zynq UltraScale+ MPSoC 系列核心板 
+# Xilinx Zynq UltraScale+ MPSoC 系列核心板ACU2CG、ACU3EG、ACU4EV、ACU5EV
 
 ***
 
@@ -16,195 +16,89 @@
 
 ## 核心板介绍
 
-### AXU2CG
 
-#### 产品简介
-
-AXU2CGA/B 的特点是体积小并扩展了丰富的外设。主芯片采用 Xilinx 公司的 Zynq 
-UltraScale+ MPSoCs CG 系列的芯片，型号为 XCZU2CG-1SFVC784E。AXU2CGA 的 PS
-端挂载了 2 片 DDR4（共 1GB，32bit）和 1 片 256Mb 的 QSPI FLASH。AXU2CGB 的 PS
-端挂载了 4 片 DDR4（共 2GB，64bit），1 片 8GB eMMC FLASH 存储芯片和 1 片 256Mb
-的 QSPI FLASH。  
-外围接口包含 1 个 MINI DP 接口、4 个 USB3.0 接口、1 路千兆以太网接口、1 个 USB
-串口、1 路 PCIE 接口、1 路 TF 卡接口、2 个 40 针扩展口、2 路 MIPI 接口和按键 LED。  
-
-#### XCZU2CG芯片主要特性
-
- XCZU2CG-1SFVC784E芯片的PS系统集成了2个ARM Cortex™-A53处理器，
-速度高达 1.2Ghz，支持 2 级 Cache; 另外还包含 2 个 Cortex-R5 处理器，速度高达 500Mhz。
-XCZU2CG 支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存储芯
-片，在 PS 端带有丰富的高速接口如 PCIE Gen2, USB3.0, SATA 3.1, DisplayPort；同时另外也支持 USB2.0，千兆以太网，SD/SDIO，I2C，CAN，UART，GPIO 等接口。PL 端内部含
-有丰富的可编程逻辑单元，DSP 和内部 RAM。
-
-#### 产品图片
-
-![图片](https://www.alinx.com/upload/image/20220818/ACU2CG.jpg)
-
-#### 产品链接
-
-<https://www.alinx.com/detail/287>
-
-#### 对应开发板
-
-##### AXU2CG-E
-
-![图片](https://www.alinx.com/upload/image/20220818/AXU3EG-750.jpg)    
-
-##### 产品链接
-
-<https://www.alinx.com/detail/223>
-
-### AXU3EG
-
-#### 产品简介
-
-ACU3EG(核心板型号，下同)核心板，ZYNQ 芯片是基于 XILINX 公司的 Zynq UltraScale+ 
-MPSoCs EG 系列的 XCZU3EG-1SFVC784I。
-这款核心板使用了 5 片 Micron 的 DDR4 芯片 MT40A512M16GE,其中 PS 端挂载 4 片
-DDR4，组成 64 位数据总线带宽和 4GB 的容量。PL 端挂载 1 片，为 16 位的数据总线宽度和
-1GB 的容量。PS 端的 DDR4 SDRAM 的最高运行速度可达 1200MHz(数据速率 2400Mbps)，
-PL 端的 DDR4 SDRAM 的最高运行速度可达 1066MHz(数据速率 2132Mbps)。另外核心板
-上也集成了 1 片 256MBit 大小的 QSPI FLASH 和 8GB 大小的 eMMC FLASH 芯片，用于启
-动存储配置和系统文件。
-为了和底板连接，这款核心板的 4 个板对板连接器扩展出了 PS 端的 USB2.0 接口，千兆
-以太网接口，SD 卡接口及其它剩余的 MIO 口；也扩展出了 4 对 PS MGT 高速收发器接口；
-以及 PL 端的几乎所有 IO 口（HP I/O：96 个，HD I/O：84 个），XCZU3EG 芯片到接口之间
-走线做了等长和差分处理，并且核心板尺寸仅为 80*60（mm），对于二次开发来说，非常适合。
-
-#### XCZU3EG芯片主要特性
-
- XCZU3EG-1SFVC784I芯片的 PS 系统集成了 4 个 ARM Cortex™-A53 处理器，
-速度高达 1.2Ghz，支持 2 级 Cache; 另外还包含 2 个 Cortex-R5 处理器，速度高达 500Mhz。  
-
-ZU3EG 芯片支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存储芯
-片，在 PS 端带有丰富的高速接口如 PCIE Gen2, USB3.0, SATA 3.1, DisplayPort；同时另外
-也支持 USB2.0，千兆以太网，SD/SDIO，I2C，CAN，UART，GPIO 等接口。PL 端内部含
-有丰富的可编程逻辑单元，DSP 和内部 RAM。
-
-#### 产品图片
-
-![图片](https://www.alinx.com/upload/image/20220819/ACU3EG.jpg)
-
-#### 产品链接
-
-<https://www.alinx.com/detail/293>
-
-#### 对应开发板
-
-##### AXU3EV
-
-![图片](https://www.alinx.com/upload/image/20220818/AXU3EG-750.jpg)
-
-##### 产品链接
-
-<https://www.alinx.com/detail/256>
-
-### AXU4EV
-
-#### 产品简介
-
-ACU4EV(核心板型号，下同)核心板，ZYNQ 芯片是基于 XILINX 公司的 Zynq UltraScale+ 
-MPSoCs EV 系列的 XCZU4EV-1SFVC784I。  
-这款核心板使用了 5 片 Micron 的 DDR4 芯片 MT40A512M16GE,其中 PS 端挂载 4 片
-DDR4，组成 64 位数据总线带宽和 4GB 的容量。PL 端挂载 1 片，为 16 位的数据总线宽度和
-1GB 的容量。PS 端的 DDR4 SDRAM 的最高运行速度可达 1200MHz(数据速率 2400Mbps)，
-PL 端的 DDR4 SDRAM 的最高运行速度可达 1066MHz(数据速率 2132Mbps)。另外核心板
-上也集成了 1 片 256MBit 大小的 QSPI FLASH 和 8GB 大小的 eMMC FLASH 芯片，用于启
-动存储配置和系统文件。  
-为了和底板连接，这款核心板的 4 个板对板连接器扩展出了 PS 端的 USB2.0 接口，千兆
-以太网接口，SD 卡接口及其它剩余的 MIO 口；也扩展出了 4 对 PS MGT 高速收发器接口；
-以及 PL 端的几乎所有 IO 口（HP I/O：96 个，HD I/O：84 个），XCZU4EV 芯片到接口之间
-走线做了等长和差分处理，并且核心板尺寸仅为 80*60（mm），对于二次开发来说，非常适合
-
-#### XCZU4EV芯片主要特性
-
-XCZU4EV-1SFVC784I芯片的 PS 系统集成了 4 个 ARM Cortex™-A53 处理器，
-速度高达 1.2Ghz，支持 2 级 Cache; 另外还包含 2 个 Cortex-R5 处理器，速度高达 500Mhz。
-ZU4EV 芯片支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存储芯
-片，在 PS 端带有丰富的高速接口如 PCIE Gen2, USB3.0, SATA 3.1, DisplayPort；同时另外
-也支持 USB2.0，千兆以太网，SD/SDIO，I2C，CAN，UART，GPIO 等接口。PL 端内部含
-有丰富的可编程逻辑单元，DSP 和内部 RAM。
-
-#### 产品图片
-
-![图片](https://www.alinx.com/upload/image/20220819/ACU4EV.jpg)
-
-#### 产品链接
-
-https://www.alinx.com/detail/294
-
-#### 对应开发板
-
-##### AXU4EV-E
-
-![图片](https://www.alinx.com/upload/image/20220818/AXU3EG-750.jpg)
-
-##### 产品链接
-
-<https://www.alinx.com/detail/258>
-
-##### AXU4EV-P
-
-![图片](https://www.alinx.com/upload/image/20220818/AXU4EV5EV.jpg)
-
-#### 产品链接
-
-<https://www.alinx.com/detail/255>
-
-### AXU5EV
-
-#### 产品简介
-
-ACU5EV(核心板型号，下同)核心板，ZYNQ 芯片是基于 XILINX 公司的 Zynq UltraScale+ 
-MPSoCs EV 系列的 XCZU5EV-2SFVC784I。  
-
-这款核心板使用了 5 片 Micron 的 DDR4 芯片 MT40A512M16GE,其中 PS 端挂载 4 片
-DDR4，组成 64 位数据总线带宽和 4GB 的容量。PL 端挂载 1 片，为 16 位的数据总线宽度和
-1GB 的容量。PS 端的 DDR4 SDRAM 的最高运行速度可达 1200MHz(数据速率 2400Mbps)，
-PL 端的 DDR4 SDRAM 的最高运行速度可达 1066MHz(数据速率 2132Mbps)。另外核心板
-上也集成了 1 片 256MBit 大小的 QSPI FLASH 和 8GB 大小的 eMMC FLASH 芯片，用于启
-动存储配置和系统文件。  
-
-为了和底板连接，这款核心板的 4 个板对板连接器扩展出了 PS 端的 USB2.0 接口，千兆
-以太网接口，SD 卡接口及其它剩余的 MIO 口；也扩展出了 4 对 PS MGT 高速收发器接口；
-以及 PL 端的几乎所有 IO 口（HP I/O：96 个，HD I/O：84 个），XCZU5EV 芯片到接口之间
-走线做了等长和差分处理，并且核心板尺寸仅为 80*60（mm），对于二次开发来说，非常适合  
-
-#### XCZU5EV芯片主要特性
-
-开发板使用的是 Xilinx 公司的 Zynq UltraScale+ MPSoCs EV 系列的系列的芯片，型号
-为 XCZU5EV-2SFVC784I。ZU5EV 芯片的 PS 系统集成了 4 个 ARM Cortex™-A53 处理器，
-速度高达 1.2Ghz，支持 2 级 Cache; 另外还包含 2 个 Cortex-R5 处理器，速度高达 500Mhz。
-ZU5EV 芯片支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存储芯
-片，在 PS 端带有丰富的高速接口如 PCIE Gen2, USB3.0, SATA 3.1, DisplayPort；同时另外
-也支持 USB2.0，千兆以太网，SD/SDIO，I2C，CAN，UART，GPIO 等接口。PL 端内部含
-有丰富的可编程逻辑单元，DSP 和内部 RAM。
-
-#### 产品图片
-
-![图片](https://www.alinx.com/upload/image/20220819/ACU5EV.jpg)
-
-#### 产品链接
-
-<https://www.alinx.com/detail/286>
-
-#### 对应开发板
-
-##### AXU5EV-E
-
-![图片](https://www.alinx.com/upload/image/20220818/AXU3EG-750.jpg)
-
-##### 产品链接
-
-<https://www.alinx.com/detail/257>
-
-##### AXU5EV-P
-
-![图片](https://www.alinx.com/upload/image/20220818/AXU4EV5EV.jpg)
-
-##### 产品链接
-
-<https://www.alinx.com/detail/224>
+### 外设接口以及存储芯片
+
+使用了 5 片 Micron 的 DDR4 芯片 MT40A512M16GE(ACU2CG为4片),其中 PS 端挂载 4 片 DDR4，组成 64 位数据总线带宽和 4GB 的容量。PL 端挂载 1 片(ACU2CG的PL端没有挂载)，为 16 位的数据总线宽度和 1GB 的容量。PS 端的 DDR4 SDRAM 的最高运行速度可达 1200MHz(数据速率 2400Mbps)， PL 端的 DDR4 SDRAM 的最高运行速度可达 1066MHz(数据速率 2132Mbps)。另外核心板 上也集成了 1 片 256MBit 大小的 QSPI FLASH 和 8GB 大小的 eMMC FLASH 芯片，用于启 动存储配置和系统文件。 为了和底板连接，这款核心板的 4 个板对板连接器扩展出了 PS 端的 USB2.0 接口，千兆 以太网接口，SD 卡接口及其它剩余的 MIO 口；也扩展出了 4 对 PS MGT 高速收发器接口； 以及 PL 端的几乎所有 IO 口,芯片到接口之间 走线做了等长和差分处理，并且核心板尺寸仅为 80*60（mm）
+
+### 主要特性
+
+<table>
+    <tr>
+        <td>核心板名称</td>
+        <td>ACU2CGA</td>
+        <td>ACU3EG</td>
+        <td>ACU4EV</td>
+        <td>ACU5EV</td>
+    </tr>
+    <tr>
+        <td>ZYNQ芯片</td>
+        <td>XCZU2CG-1SFVC784E</td>
+        <td>XCZU3EG-1SFVC784I</td>
+        <td>XCZU4EV-1SFVC784I</td>
+        <td>XCZU5EV-2SFVC784I</td>
+    </tr>
+    <tr>
+        <td>是否带图形处理单元(GPU)与视频编解码单元(VCU)</td>
+        <td>否</td>
+        <td></td>
+        <td>是</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>尺寸</td>
+        <td>80 x 60 x 7.1mm</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DDR4、SDRAM芯片</td>
+        <td>CXDQ2BFAM-CG(兼容MT40A256M16GE-083E） 256M x 16bit</td>
+        <td>MT40A512M16LY-062E 512M x 16bit</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>QSPI FLASH</td>
+        <td>MT25QU256ABA1EW9-0SITMT25QU256ABA1EW9-0SIT      256M bit</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>EMMC Flash</td>
+        <td>MTFC8GAKAJCN-4M   8G Byte</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>供电电压</td>
+        <td>12V</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>IO管脚电平标准</td>
+        <td>其中 BANK43~46 的 IO 的电平标准为 3.3V，BANK65,66 的电平不超过1.8V；MIO 的电平标准也为 1.8V</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>合高</td>
+        <td>3mm</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>叠层数量</td>
+        <td>16层</td>
+    </tr>
+</table> 
 
 ***
 
@@ -212,7 +106,7 @@ ZU5EV 芯片支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存
 
 ### PS部分参数
 
-#### AXU2CG、AXU3EG
+#### ACU2CG、ACU3EG
 
 <table>
     <tr>
@@ -249,7 +143,7 @@ ZU5EV 芯片支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存
     </tr>
 </table>
 
-### AXU4EV、AXU5EV
+### ACU4EV、ACU5EV
 
 <table>
     <tr>
@@ -292,7 +186,7 @@ ZU5EV 芯片支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存
 
 ### PL部分参数
 
-#### AXU2CG
+#### ACU2CG
 
 <table>
     <tr>
@@ -321,7 +215,7 @@ ZU5EV 芯片支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存
     </tr>
 </table>
 
-#### AXU3EG
+#### ACU3EG
 
 <table>
     <tr>
@@ -350,7 +244,7 @@ ZU5EV 芯片支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存
     </tr>
 </table>
 
-#### AXU4EV
+#### ACU4EV
 
 <table>
     <tr>
@@ -391,7 +285,7 @@ ZU5EV 芯片支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存
     </tr>
 </table>
 
-#### AXU5EV
+#### ACU5EV
 
 <table>
     <tr>
