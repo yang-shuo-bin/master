@@ -6,11 +6,10 @@
 车辆识别  
 ![图片](G:/AI-3.jpg)   
 ##产品图片
-![图片](G:/ACU2CG.jpg) 
+![图片](https://www.alinx.com/upload/image/20220818/ACU2CG.jpg)
 ##接口图片
-![图片](G:/1665212823906926.jpg)
-    
-![图片](G:/ACU2CG3EGCN2.jpg)  
+![图片](https://www.alinx.com/upload/image/20221008/1665212823906926.jpg)
+![图片]((https://www.alinx.com/upload/image/20220818/ACU2CG3EGCN2.jpg)  
 ##对应开发板
 ###AXU2CG-E
 ![图片](G:/AXU3EG-750.jpg)    
