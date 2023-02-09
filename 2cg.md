@@ -1,94 +1,95 @@
 # Xilinx Zynq UltraScale+ MPSoC AI智能识别 FPGA核心板 XCZU2CG
-## 应用场景
-智能识别检测、图像视频处理、安防监控、机器视觉、火灾监测、交通安全、智慧工地、智慧酒店、智慧农业、物联网   
-## 支持XILINX VITIS-AI DPU  
-![图片](G:/AI-2.jpg)   
-车辆识别  
-![图片](G:/AI-3.jpg)   
-##产品图片
-![图片](G:/ACU2CG.jpg) 
-##接口图片
-![图片](G:/1665212823906926.jpg)
-    
-![图片](G:/ACU2CG3EGCN2.jpg)  
-## 对应开发板
-### AXU2CG-E
-![图片](G:/AXU3EG-750.jpg)    
-产品链接<https://www.alinx.com/detail/223>
 
-## 产品参数
-### 核心板主要参数
+## 产品简介
+
+AXU2CGA/B 的特点是体积小并扩展了丰富的外设。主芯片采用 Xilinx 公司的 Zynq 
+UltraScale+ MPSoCs CG 系列的芯片，型号为 XCZU2CG-1SFVC784E。AXU2CGA 的 PS
+端挂载了 2 片 DDR4（共 1GB，32bit）和 1 片 256Mb 的 QSPI FLASH。AXU2CGB 的 PS
+端挂载了 4 片 DDR4（共 2GB，64bit），1 片 8GB eMMC FLASH 存储芯片和 1 片 256Mb
+的 QSPI FLASH。  
+外围接口包含 1 个 MINI DP 接口、4 个 USB3.0 接口、1 路千兆以太网接口、1 个 USB
+串口、1 路 PCIE 接口、1 路 TF 卡接口、2 个 40 针扩展口、2 路 MIPI 接口和按键 LED。  
+
+### 开发系统结构示意图
+
+## 主要特性
+
+ XCZU2CG-1SFVC784E芯片的PS系统PS系统集成了2个ARM Cortex™-A53处理器，
+速度高达 1.2Ghz，支持 2 级 Cache; 另外还包含 2 个 Cortex-R5 处理器，速度高达 500Mhz。
+XCZU2CG 支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存储芯
+片，在 PS 端带有丰富的高速接口如 PCIE Gen2, USB3.0, SATA 3.1, DisplayPort；同时另外也支持 USB2.0，千兆以太网，SD/SDIO，I2C，CAN，UART，GPIO 等接口。PL 端内部含
+有丰富的可编程逻辑单元，DSP 和内部 RAM。
+
+### XCZU2CG 芯片的总体框图
+
+### PS部分的主要参数
+
 <table>
     <tr>
-        <td>核心板</td>
-        <td>ACU2CG</td>
+        <td>处理器</td>
+        <td>ARM 双核 Cortex™-A53 处理器，速度高达 1.2GHz，每个 CPU 32KB 1 级指令和数据缓存，1MB 2 级缓存 2 个 CPU 共享  ARM 双核 Cortex-R5 处理器，速度高达 500MHz，每个 CPU 32KB 1 级指令和数据缓存，及 128K 紧耦合内存</td>
     </tr>
     <tr>
-        <td>FPGA型号</td>
-        <td>XCZU2CG-1SFVC784E</td>
+        <td>外部存储接口</td>
+        <td>支持 32/64bit DDR4/3/3L、LPDDR4/3 接口</td>
     </tr>
     <tr>
-        <td>芯片CPU</td>
-        <td>2x ARM Cortex™-A53，1.2GHz，双核 Cortex™-R5, 500MHz</td>
+        <td>静态存储接口</td>
+        <td>支持 NAND, 2xQuad-SPI FLASH</td>
     </tr>
     <tr>
-        <td>芯片GPU</td>
-        <td></td>
+        <td>高速连接接口</td>
+        <td>支持 PCIe Gen2 x4, 2xUSB3.0, Sata 3.1, DisplayPort, 4x Tri-mode Gigabit Ethernet</td>
     </tr>
     <tr>
-        <td>核心板内存</td>
-        <td>PS 端 DDR4, 4GB, 64bit, 2400Mbps</td>
+        <td>普通连接接口</td>
+        <td>2xUSB2.0, 2x SD/SDIO, 2x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO</td>
     </tr>
     <tr>
-        <td>QSPI FLASH</td>
-        <td>256Mbit</td>
+        <td>电源管理</td>
+        <td>支持 Full/Low/PL/Battery 四部分电源的划分</td>
     </tr>
     <tr>
-        <td>EMMC FLASH</td>
-        <td>8GB</td>
+        <td>加密算法</td>
+        <td>支持 RSA, AES 和 SHA</td>
     </tr>
     <tr>
-        <td>速度等级</td>
-        <td>-1</td>
+        <td>系统监控</td>
+        <td>10 位 1Mbps 的 AD 采样，用于温度和电压的检测。</td>
     </tr>
+</table>
+
+### PL部分的主要参数
+
+<table>
     <tr>
-        <td>芯片级别</td>
-        <td>商业级</td>
-    </tr>
-    <tr>
-        <td>工作温度</td>
-        <td>0°c~70°c</td>
-    </tr>
-    <tr>
-        <td>逻辑单元</td>
+        <td>逻辑单元 Logic Cells</td>
         <td>103K</td>
     </tr>
     <tr>
-        <td>触发器</td>
+        <td>触发器(flip-flops)</td>
         <td>94K</td>
     </tr>
     <tr>
-        <td>查找表</td>
+        <td>查找表 LUTs</td>
         <td>47K</td>
-    </tr>
-    <tr>
-        <td>DSP slice</td>
-        <td>240</td>
     </tr>
     <tr>
         <td>Block RAM</td>
         <td>5.3Mb</td>
     </tr>
     <tr>
-        <td>HP I/O</td>
-        <td>96个</td>
+        <td>时钟管理单元（CMTs）</td>
+        <td>3</td>
     </tr>
     <tr>
-        <td>HD I/O</td>
-        <td>84个</td>
+        <td>乘法器 18x25MACCs</td>
+        <td>240</td>
     </tr>
-</table>                                           
-### 功能和接口参数
+</table>
+
+###功能和接口部分参数
+
 <table>
     <tr>
         <td>QSPI Flash</td>
@@ -110,27 +111,28 @@
         <td>1差分 200MHz 晶振提供给 PL 逻辑、 DDR4 参考时钟"</td>
     </tr>
 </table>
-### 电源参数
-<table>
-    <tr>
-        <td>输入电压</td>
-        <td>12V供电</td>
-    </tr>
-</table>
-###结构尺寸
-<table>
-    <tr>
-        <td>尺寸大小</td>
-        <td>80 x 60 x 7.1mm</td>
-        <td>合高</td>
-        <td>3.0mm</td>
-    </tr>
-    <tr>
-        <td>叠层数量</td>
-        <td>16层，沉金工艺，高质量PCB材质</td>
-    </tr>
-</table>
-## 结构图
-![图片](G:/ACU2EG-Zynq-UltraScale-FPGA.jpg)
+
+## 产品图片
+
+![图片](https://www.alinx.com/upload/image/20220818/ACU2CG.jpg)
+
+## 对应开发板
+
+### AXU2CG-E
+
+![图片](https://www.alinx.com/upload/image/20220818/AXU3EG-750.jpg)    
+
+### 产品链接
+
+<https://www.alinx.com/detail/223>
+
+## 结构尺寸图
+
+## 参考资料层次
+
+## 官方网站
+
+<https://www.alinx.com/detail/287>
+
 
 
