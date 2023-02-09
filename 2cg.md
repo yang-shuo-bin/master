@@ -12,6 +12,8 @@ UltraScale+ MPSoCs CG 系列的芯片，型号为 XCZU2CG-1SFVC784E。AXU2CGA �
 
 ### 开发系统结构示意图
 
+![图片](H:/test/structure.png)
+
 ## 主要特性
 
  XCZU2CG-1SFVC784E芯片的PS系统PS系统集成了2个ARM Cortex™-A53处理器，
@@ -129,6 +131,8 @@ XCZU2CG 支持 32 位或者 64 位的 DDR4，LPDDR4，DDR3,DDR3L, LPDDR3 存储�
 ## 结构尺寸图
 
 ## 参考资料层次
+
+
 
 ## 官方网站
 
